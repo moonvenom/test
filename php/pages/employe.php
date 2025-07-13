@@ -13,6 +13,7 @@ if (!$emp) {
     echo "Employé introuvable.";
     exit;
 }
+echo test;
 
 $historiqueSalaires = getHistoriqueSalaires($pdo, (int)$emp_no);
 $emploiLePlusLong = getEmploiLePlusLong($pdo, (int)$emp_no);
